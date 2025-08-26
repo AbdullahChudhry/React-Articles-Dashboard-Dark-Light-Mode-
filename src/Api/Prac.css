@@ -1,0 +1,79 @@
+
+.con{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+   width: 95%;
+   margin: auto;
+   gap: 5px;
+    margin: 10px 15px;
+}
+
+.upper{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+   width: 33%;
+   border: 1px solid gray;
+   height: 33%;
+    border: 1px solid black;
+   border-radius: 10px;
+   box-shadow: 0 0 7px hsla(0, 0%, 12%, 0.616);
+   animation: ani 0.4s ease-in-out 0.2s infinite;
+   transition: all ease 0.4s;
+
+}
+@keyframes ani {
+    0%{
+ box-shadow: 0 0 7px hsla(0, 0%, 12%, 0.616);
+    }
+    50%{
+ box-shadow: 0 0 14px hsla(0, 0%, 12%, 0.616);
+    }
+    100%{
+ box-shadow: 0 0 21px hsla(0, 0%, 12%, 0.616);
+    }
+}
+.upper:hover{
+    background-color:  hsl(0, 0%, 17%);
+    color: white;
+    transition: all ease 0.4s;
+}
+
+.card1{
+    width: 100%;
+}
+.card1 img{
+    width: 100%;
+    object-fit: cover;
+}
+.link1 {
+margin-bottom: 5px;
+
+}
+p{
+    margin: 5px 10px;
+    padding: 10px 15px;
+}
+.arr{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+}
+.arr button{
+    font-size: 1.5rem;
+    border: none;
+    margin-top:10px;
+    background-color: hsl(270, 17%, 79%);
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    transition: all ease 0.4s;
+}
+.arr button:hover{
+      background-color:hsl(270, 17%, 60%);
+    transition: all ease 0.4s;
+}

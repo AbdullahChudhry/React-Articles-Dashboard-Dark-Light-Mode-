@@ -1255,7 +1255,7 @@ export default function ApiCards() {
     return (
         <>
             <div className="container mt-4 mb-4 g-3">
-                <div className="row ">
+                <div className="row">
                     {articles.map((ele, index) => (
                         <div className="col-4 border border-grey py-2 mb-2" key={index}>
 
